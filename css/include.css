@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.gnb{
+    width: 75px;
+}
+.gnb li{
+    float: left;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.gnb li a{
+    font-family: 'Avenir';
+    font-size: 22px;
+    font-weight: 550;
+    color: #f1f3f2;
+    line-height: 40px;
+    display: block;
+}
+.gnb li a span{
+
+}
+.gnb li a span:after{
+    display: block;
+    content: "";
+    background: #f1f3f2;
+    width: 0;
+    height: 1px;
+    transition: width 0.4s;
+    
+}
+.gnb li:hover span:after{
+    width: 100%
+}
+/*푸터*/
+#footer{}
